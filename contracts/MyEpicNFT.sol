@@ -85,7 +85,13 @@ contract MyEpicNFT is ERC721URIStorage {
         );
 
         console.log("\n___________");
-        console.log(finalTokenUri);
+        console.log(
+            string(
+                abi.encodePacked(
+                    "https://nftpreview.0xdev.codes/?code=",
+                    finalTokenUri
+            )
+        ));
         console.log("\n___________");
 
         // minft nft to sender via msg.sender
