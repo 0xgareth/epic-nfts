@@ -3,8 +3,11 @@ node_modules
 coverage
 coverage.json
 typechain
+node_modules/
+build/
 
 #Hardhat files
 cache
 artifacts
 hardhat.config.js
+
