@@ -5,9 +5,9 @@ coverage.json
 typechain
 node_modules/
 build/
+.env
 
 #Hardhat files
 cache
 artifacts
-hardhat.config.js
 
